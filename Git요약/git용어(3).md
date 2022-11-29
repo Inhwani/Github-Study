@@ -24,3 +24,12 @@ $ git checkout .
 모든 변경 사항을 취소하는 것
 
 ### :red_circle: SWITCH의 개념
+
+switch는 checkout에서 브랜치를 변경하는 부분만 담당한다.
+
+이전에는 git checkout <branch_name>으로 브랜치를 변경했다.
+
+하지만 이젠 switch로 변경한다
+
+$ git switch [name]
+
