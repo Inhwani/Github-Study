@@ -1,0 +1,8 @@
+$ git add
+Working directory의 파일을 Staging Area로 옮기는 명령어입니다.
+
+$ git commit 
+깃의 코드 변화를 기록하는 것을 Commit(커밋) 이라고 하며 이를 수행하는 명령어입니다.
+
+$ git log
+현재 브랜치의 커밋 이력을 볼 수 있는 명령어입니다.
