@@ -123,3 +123,17 @@ ________________________________________________________________________________
 _______________________________________________________________________________________
 
 코드를 변경한다는 것은 Working Directory에서 파일을 수정하는 것을 의미.
+
+파일의 수정 > Working Directory의 내용 != Staging Area의 내용 > 이를 구분하기 위한 Modified 상태와 UnModified 상태로 표현합니다.
+
+Modified
+
+- Staging Area에 등록된 파일은 깃이 추적 관리합니다.
+- 깃은 tracked 상태인 파일만 수정 여부를 관리할 수 있습니다.
+- tracked 상태인 파일이 수정되면 Staging Area는 파일 상태를 Modified 상태로 변경합니다.
+- 수정된 파일은 Staging Area에서 잠시 제외 (깃은 수정 여부만 체크해 주기 때문에)
+- Modified 상태로 변경된 파일은 Staging Area에 재등록 해야 합니다. ( $ git add 명령어 사용)
+
+UnModified
+- Tracked 상태
+- Staging Area에서 한 번도 수정하지 
