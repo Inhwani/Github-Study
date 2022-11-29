@@ -10,3 +10,17 @@
 
 - 브랜치 혹은 커밋 전환
 - 내용 되돌리기
+
+$ git checkout branch name
+
+특정 브랜치로 이동하기
+
+$ git checkout -b (new branch name)
+
+특정 브랜치 생성 후 해당 브랜치로 이동
+
+$ git checkout .
+
+모든 변경 사항을 취소하는 것
+
+### :red_circle: SWITCH의 개념
