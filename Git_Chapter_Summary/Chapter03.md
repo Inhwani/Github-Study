@@ -136,4 +136,4 @@ Modified
 
 UnModified
 - Tracked 상태
-- Staging Area에서 한 번도 수정하지 
+- Staging Area에서 한 번도 수정하지 않음
