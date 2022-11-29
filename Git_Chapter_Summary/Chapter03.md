@@ -94,3 +94,18 @@ $ git add
 - 추적 상태로 변경 가능한 명령어
 
 깃은 요청 받은 파일만 추적 관리합니다.
+
+## 3.3 스테이지
+
+깃의 여러 단계의 논리적인 저장 공간 중 Staging Area는 '임시로 저장하는 공간'을 의미합니다.
+
+Staging Area = 임시 영역
+- Working directory에서 제출된 tracked 파일들을 관리합니다.
+- Working directory와 실제 저장하여 기록하는 공간 사이에 있는 '임시 영역' 입니다.
+- 커밋을 빠르게 처리하기 위한 영역.
+
+$ git status
+- 파일들의 스테이지 상태를 확인 가능한 명령어.
+
+Staging Area에 등록된 파일들은 Stage 상태와 UnStage 상태로 구분됩니다.
+
