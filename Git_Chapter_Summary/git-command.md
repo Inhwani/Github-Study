@@ -10,3 +10,9 @@ $ git log --graph
 $ git logg
 ```
 
+```
+$ git log --graph --oneline
+
+$ git logg1
+```
+
